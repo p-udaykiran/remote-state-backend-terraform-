@@ -1,0 +1,25 @@
+# Local .terraform directories (plugin and provider cache)
+.terraform/
+
+# State files - store sensitive info (like IPs, secrets)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore any custom tfvars files that may have secrets
+*.tfvars
+
+# Sensitive private key files
+terrakey_ec2
+terrakey_ec2.pub
+*.pem
+*.key
+
+# Terraform lock file (optional to ignore)
+.terraform.lock.hcl
+
+# OS/IDE/System files (optional cleanup)
+*.log
+*.DS_Store
+*.swp
+.idea/
+.vscode/
